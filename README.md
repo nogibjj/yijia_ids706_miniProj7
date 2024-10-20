@@ -20,10 +20,11 @@ This project is a simple statistical tool built with Rust that calculates the me
 
 ### 1. Prerequisites
 - Option 1: Run Locally with Rust
-        * Install Rust and Cargo.
+    - Install Rust and Cargo.
+
 - Option 2: Download Prebuilt Binary (No Rust Installation Required)
-        * The binary is automatically built during the CI/CD process and can be downloaded directly from the GitHub Actions Artifacts section.
-        * No need to install Rust on your local machine if you prefer this method.
+    - The binary is automatically built during the CI/CD process and can be downloaded directly from the GitHub Actions Artifacts section.
+    - No need to install Rust on your local machine if you prefer this method.
 
 ### 2. Download Prebuilt Binary (No Rust Required)
 Download the prebuilt binary artifact and ensure using a Linux environment (e.g., GitHub Codespaces, a Linux VM, or a Linux machine) 
