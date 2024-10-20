@@ -10,4 +10,7 @@ test:
 build:
 	cargo build --release
 
+run: 
+	cargo run
+
 all: format lint test build

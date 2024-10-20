@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use rust_stats_tool::stats::{mean, median};  
+    use yijia_ids706_mini_proj7::stats::{mean, median};
 
     #[test]
     fn test_mean() {
@@ -39,5 +39,4 @@ mod tests {
         let mut numbers = vec![10.0];
         assert_eq!(median(&mut numbers), Some(10.0));
     }
-
 }

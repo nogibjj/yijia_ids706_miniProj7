@@ -1,5 +1,5 @@
-use rust_stats_tool::stats;
 use std::io::{self};
+use yijia_ids706_mini_proj7::stats;
 
 fn main() {
     println!("Enter a list of numbers separated by spaces:");
@@ -28,6 +28,4 @@ fn main() {
         Some(median) => println!("Median: {}", median),
         None => println!("No data provided for median."),
     }
-
-   
 }
