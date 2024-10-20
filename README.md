@@ -24,8 +24,8 @@ This project is a simple statistical tool built with Rust that calculates the me
 
 - Option 2: Download Prebuilt Binary (No Rust Installation Required)
     - The binary is automatically built during the CI/CD process and can be downloaded directly from the GitHub Actions Artifacts section.
-    - No need to install Rust on your local machine if you prefer this method.
-
+    - No need to install Rust on your local machine.
+      
 ### 2. Download Prebuilt Binary (No Rust Required)
 Download the prebuilt binary artifact and ensure using a Linux environment (e.g., GitHub Codespaces, a Linux VM, or a Linux machine) 
 
@@ -48,6 +48,7 @@ It will prompt you to enter a list of numbers (separated by spaces) and will ret
 ```sh
 git clone git@github.com:nogibjj/yijia_ids706_miniProj7.git
 ```
+
 2. (Optional): Open the repository in Visual Studio Code and reopen it in a container using the .devcontainer configuration to ensure a consistent development environment.
 
 3. Build the project:
