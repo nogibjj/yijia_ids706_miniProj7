@@ -18,18 +18,35 @@ This project is a simple statistical tool built with Rust that calculates the me
 
 ## Installation
 
-### Prerequisites
-Rust and Cargo: Ensure you have Rust and Cargo installed. If not, visit rust-lang.org for installation instructions.
+### 1. Prerequisites
+- Option 1: Run Locally with Rust
+        * Install Rust and Cargo.
+- Option 2: Download Prebuilt Binary (No Rust Installation Required)
+        * The binary is automatically built during the CI/CD process and can be downloaded directly from the GitHub Actions Artifacts section.
+        * No need to install Rust on your local machine if you prefer this method.
 
-Docker: Make sure Docker is installed and running on your system if you want to use the dev container.
+### 2. Download Prebuilt Binary (No Rust Required)
+Download the prebuilt binary artifact and ensure using a Linux environment (e.g., GitHub Codespaces, a Linux VM, or a Linux machine) 
 
+Here’s how to get the binary:
+1. Go to the Actions tab in the repository.
+2. Select the latest workflow run.
+3. Scroll down to Artifacts and download the yijia_ids706_mini_proj7.
+4. Move the binary to a Linux environment where you want to run the tool (e.g., GitHub Codespaces or a Linux machine).
+
+**Usage of Binary:** 
+```sh
+./yijia_ids706_mini_proj7
+```
+It will prompt you to enter a list of numbers (separated by spaces) and will return the mean and median.
+
+### 3. Running Locally with Rust Installed
 ### Steps
 1. Clone the repository:
 
 ```sh
 git clone git@github.com:nogibjj/yijia_ids706_miniProj7.git
 ```
-
 2. (Optional): Open the repository in Visual Studio Code and reopen it in a container using the .devcontainer configuration to ensure a consistent development environment.
 
 3. Build the project:
