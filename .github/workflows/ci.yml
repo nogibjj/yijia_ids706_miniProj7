@@ -21,7 +21,13 @@ jobs:
         override: true
 
     - name: Build
-      run: make build
+      run: make build 
+      
+    - name: Upload binary as an artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: rust_stats_tool_binary
+        path: target/release/yijia_ids706_miniproj7  
 
     - name: Check formatting
       run: make format
